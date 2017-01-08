@@ -1,3 +1,3 @@
 (function($) {
-  alert('main.js loaded');
+  alert('controllers.js loaded');
 })(jQuery); // Fully reference jQuery after this point.

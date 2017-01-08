@@ -1,8 +1,38 @@
 {
   "dependencies": {
-    "main.js": {
+    "angular.js": {
+      "bower": ["angular"]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "app.js": {
       "files": [
-        "scripts/main.js"
+        "scripts/app.js"
+      ],
+      "main": true
+    },
+    "controllers.js": {
+      "files": [
+        "scripts/controllers/controllers.js"
+      ],
+      "main": true
+    },
+    "services.js": {
+      "files": [
+        "services/services/services.js"
+      ],
+      "main": true
+    },
+    "directives.js": {
+      "files": [
+        "scripts/directives/directives.js"
+      ],
+      "main": true
+    },
+    "filters.js": {
+      "files": [
+        "scripts/filters/filters.js"
       ],
       "main": true
     },
@@ -11,9 +41,6 @@
         "styles/main.scss"
       ],
       "main": true
-    },
-    "jquery.js": {
-      "bower": ["jquery"]
     }
   },
   "config": {

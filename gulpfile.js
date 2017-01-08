@@ -234,7 +234,15 @@ gulp.task('index', function() {
   gulp.src('src/index.html')
     .pipe(htmlReplace({
       'css' : 'styles/' + assets['main.css'],
-      'js'  : [ 'scripts/' + assets['jquery.js'] , 'scripts/' + assets['main.js'] ]
+      'js'  : [
+        'scripts/' + assets['angular.js'],
+        'scripts/' + assets['jquery.js'],
+        'scripts/' + assets['app.js'],
+        'scripts/' + assets['controllers.js'],
+        'scripts/' + assets['directives.js'],
+        'scripts/' + assets['services.js'],
+        'scripts/' + assets['filters.js']
+      ]
   }))
   .pipe(gulp.dest('dist/'));
   /*
