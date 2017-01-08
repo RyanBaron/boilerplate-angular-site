@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]><html ng-app class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html ng-app class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html ng-app class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html ng-app class="no-js"> <!--<![endif]-->
   <head>
     <!-- Meta-Information -->
     <title>Positioning Guide</title>
@@ -27,7 +27,8 @@
         Site header
       </header>
       <main id="site_main">
-        Site main
+        <h1>{{hello}}</h1>
+        <input type="text" ng-model="hello">
       </main>
       <footer id="site_footer">
         Site footer

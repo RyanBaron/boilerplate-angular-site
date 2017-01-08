@@ -20,7 +20,7 @@
     },
     "services.js": {
       "files": [
-        "services/services/services.js"
+        "scripts/services/services.js"
       ],
       "main": true
     },
